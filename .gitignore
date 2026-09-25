@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Sensitive deployment metadata
+deployment_metadata.json
+.env
+
+# OS metadata
+.DS_Store
+Thumbs.db

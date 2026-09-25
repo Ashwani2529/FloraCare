@@ -1,0 +1,1704 @@
+=== Starting server at 2026-09-25T04:47:01.000697+00:00 ===
+Command: /config/Desktop/Session1/simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/simple-agent
+=== Started server process 65447 ===
+2026-09-25 04:47:04,131 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 04:47:04,133 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/simple-agent
+2026-09-25 04:47:04,134 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/simple-agent
+/config/Desktop/Session1/simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [65447]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:33690 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 04:47:04,948 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/simple-agent/app/.adk/session.db
+2026-09-25 04:47:05,016 - INFO - api_server.py:1110 - New session created: 23660c8a-39c6-40f0-ad24-e2233997bb08
+INFO:     127.0.0.1:33698 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 04:47:05,030 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/simple-agent/.env
+INFO:     127.0.0.1:33700 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 04:47:06,436 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 04:47:07,688 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-25 04:47:07,727 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 04:47:08,536 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 04:47:08,755 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 04:47:08,755 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [65447]
+=== Starting server at 2026-09-25T04:52:46.305113+00:00 ===
+Command: /config/Desktop/Session1/simple-agent/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/simple-agent
+=== Started server process 66900 ===
+2026-09-25 04:52:47,692 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 04:52:47,692 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/simple-agent
+2026-09-25 04:52:47,693 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/simple-agent
+/config/Desktop/Session1/simple-agent/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/simple-agent/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [66900]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41972 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 04:52:48,136 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/simple-agent/app/.adk/session.db
+2026-09-25 04:52:48,158 - INFO - api_server.py:1110 - New session created: e735ef8c-9d01-4e1e-b688-775373a2afae
+INFO:     127.0.0.1:41974 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 04:52:48,173 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/simple-agent/.env
+INFO:     127.0.0.1:41982 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/simple-agent/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 04:52:48,728 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 04:52:49,920 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-25 04:52:49,960 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 04:52:51,238 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 04:52:51,451 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 04:52:51,451 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [66900]
+=== Starting server at 2026-09-25T05:19:17.002803+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Starting server at 2026-09-25T05:19:23.577310+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 86094 ===
+2026-09-25 05:19:26,661 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:19:26,663 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:19:26,663 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [86094]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56008 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:19:27,525 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:19:27,546 - INFO - api_server.py:1110 - New session created: 704534a0-53a1-4409-961c-a44952ff456b
+INFO:     127.0.0.1:56024 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:19:27,559 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:56038 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:19:31,736 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:19:32,855 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:19:33,069 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:19:33,069 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [86094]
+=== Starting server at 2026-09-25T05:22:45.054720+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 87510 ===
+2026-09-25 05:22:46,471 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:22:46,472 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:22:46,472 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [87510]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56030 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:22:47,190 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:22:47,214 - INFO - api_server.py:1110 - New session created: 3b71c810-757e-4cb2-b85e-e9b4f2a71d13
+INFO:     127.0.0.1:56044 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:22:47,229 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:56060 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:22:49,548 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:22:50,478 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-25 05:22:51,713 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:22:53,115 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:22:53,314 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:22:53,314 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87510]
+=== Starting server at 2026-09-25T05:22:56.169732+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 87592 ===
+2026-09-25 05:22:57,588 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:22:57,588 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:22:57,588 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [87592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55740 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:22:58,301 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:22:58,316 - INFO - api_server.py:1110 - New session created: ffaab575-5d6e-4627-94ef-c72a241996cd
+INFO:     127.0.0.1:55742 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:22:58,331 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:55754 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:23:00,690 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:23:02,682 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-25 05:23:03,892 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:23:05,057 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:23:05,289 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:23:05,290 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87592]
+=== Starting server at 2026-09-25T05:26:18.290325+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 88744 ===
+2026-09-25 05:26:19,700 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:26:19,701 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:26:19,701 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [88744]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60586 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:26:20,420 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:26:20,435 - INFO - api_server.py:1110 - New session created: 9e4b9671-0dd6-46d2-b1c3-ab21857aaa56
+INFO:     127.0.0.1:60590 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:26:20,449 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:60596 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:26:22,783 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:26:24,317 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-25 05:26:24,353 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:26:25,971 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:26:26,136 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:26:26,137 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [88744]
+=== Starting server at 2026-09-25T05:27:15.087126+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 89015 ===
+2026-09-25 05:27:16,523 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:27:16,523 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:27:16,523 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [89015]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:47638 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:27:17,222 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:27:17,239 - INFO - api_server.py:1110 - New session created: 8d830ec8-3bc4-425e-9470-57549c063c1e
+INFO:     127.0.0.1:47652 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:27:17,252 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:47668 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:27:19,494 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:27:20,867 - INFO - google_llm.py:352 - Response received from the model.
+2026-09-25 05:27:22,602 - INFO - google_llm.py:255 - Sending out request, model: gemini-flash-latest, backend: GoogleLLMVariant.VERTEX_AI, stream: False
+2026-09-25 05:27:24,469 - INFO - google_llm.py:352 - Response received from the model.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:27:24,598 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:27:24,599 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [89015]
+=== Starting server at 2026-09-25T05:30:56.335664+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 90019 ===
+2026-09-25 05:30:57,714 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:30:57,714 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:30:57,715 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [90019]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41990 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:30:58,164 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:30:58,181 - INFO - api_server.py:1110 - New session created: fbf2354e-128e-4070-8728-d75b007f052c
+INFO:     127.0.0.1:41992 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:30:58,195 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:42000 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:31:00,321 - ERROR - _node_runner.py:160 - Node execution failed with exception
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:31:00,341 - ERROR - runners.py:828 - Root node root_agent failed.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:31:00,353 - ERROR - api_server.py:1985 - Error in event_generator: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/api_server.py", line 1945, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 1149, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 579, in _run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 294, in run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/utils/_runner_utils.py", line 42, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 264, in _run
+    await runner._cleanup_root_task(task, runner.agent.name)  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:31:00,491 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:31:00,491 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90019]
+=== Starting server at 2026-09-25T05:31:03.242608+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 90059 ===
+2026-09-25 05:31:04,631 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:31:04,631 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:31:04,631 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [90059]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:41482 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:31:05,375 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:31:05,392 - INFO - api_server.py:1110 - New session created: f082b955-31be-4441-ad76-24a6c81adb9c
+INFO:     127.0.0.1:41486 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:31:05,406 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:41500 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:31:07,683 - ERROR - _node_runner.py:160 - Node execution failed with exception
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:31:07,704 - ERROR - runners.py:828 - Root node root_agent failed.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:31:07,715 - ERROR - api_server.py:1985 - Error in event_generator: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/api_server.py", line 1945, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 1149, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 579, in _run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 294, in run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/utils/_runner_utils.py", line 42, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 264, in _run
+    await runner._cleanup_root_task(task, runner.agent.name)  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:31:07,852 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:31:07,852 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90059]
+=== Starting server at 2026-09-25T05:31:14.529179+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18081 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 90133 ===
+2026-09-25 05:31:15,900 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:31:15,900 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:31:15,901 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [90133]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:45870 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:31:16,355 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:31:16,371 - INFO - api_server.py:1110 - New session created: d310cb4d-58b5-4904-ab0f-39a72a34d250
+INFO:     127.0.0.1:45872 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:31:16,383 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:45888 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:31:18,562 - ERROR - _node_runner.py:160 - Node execution failed with exception
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:31:18,582 - ERROR - runners.py:828 - Root node root_agent failed.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:31:18,593 - ERROR - api_server.py:1985 - Error in event_generator: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/api_server.py", line 1945, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 1149, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 579, in _run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 294, in run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/utils/_runner_utils.py", line 42, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 264, in _run
+    await runner._cleanup_root_task(task, runner.agent.name)  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:31:18,733 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:31:18,733 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90133]
+=== Starting server at 2026-09-25T05:33:08.447929+00:00 ===
+Command: /config/Desktop/Session1/floracare/.venv/bin/adk api_server --host 127.0.0.1 --port 18080 --reload_agents --no-reload .
+CWD: /config/Desktop/Session1/floracare
+=== Started server process 90678 ===
+2026-09-25 05:33:09,753 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-09-25 05:33:09,753 - INFO - local_storage.py:89 - Using per-agent session storage rooted at /config/Desktop/Session1/floracare
+2026-09-25 05:33:09,753 - INFO - local_storage.py:121 - Using per-agent artifact storage rooted at /config/Desktop/Session1/floracare
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/fast_api.py:278: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/auth/credential_service/in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [90678]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:18080 (Press CTRL+C to quit)
+INFO:     127.0.0.1:42786 - "GET / HTTP/1.1" 404 Not Found
+2026-09-25 05:33:10,276 - INFO - local_storage.py:65 - Creating local session service at /config/Desktop/Session1/floracare/app/.adk/session.db
+2026-09-25 05:33:10,291 - INFO - api_server.py:1110 - New session created: 2f87630f-f28c-4f3a-9ede-44e20d4167f6
+INFO:     127.0.0.1:42790 - "POST /apps/app/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-09-25 05:33:10,304 - INFO - envs.py:83 - Loaded .env file for app at /config/Desktop/Session1/floracare/.env
+INFO:     127.0.0.1:42798 - "POST /run_sse HTTP/1.1" 200 OK
+/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/llm_request.py:298: UserWarning: [EXPERIMENTAL] feature FeatureName.JSON_SCHEMA_FOR_FUNC_DECL is enabled.
+  declaration = tool._get_declaration()
+2026-09-25 05:33:12,448 - ERROR - _node_runner.py:160 - Node execution failed with exception
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:33:12,469 - ERROR - runners.py:828 - Root node root_agent failed.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+2026-09-25 05:33:12,481 - ERROR - api_server.py:1985 - Error in event_generator: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 237, in _drive_root_node
+    await root_ctx._run_node_internal(  # pylint: disable=protected-access
+    ...<3 lines>...
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/context.py", line 604, in _run_node_internal
+    raise DynamicNodeFailError(
+    ...<3 lines>...
+    )
+google.adk.workflow._errors.DynamicNodeFailError: Dynamic node root_agent failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/cli/api_server.py", line 1945, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 1149, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 579, in _run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 294, in run_node_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/utils/_runner_utils.py", line 42, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 264, in _run
+    await runner._cleanup_root_task(task, runner.agent.name)  # pylint: disable=protected-access
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/runners.py", line 824, in _cleanup_root_task
+    await task
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner_utils.py", line 246, in _drive_root_node
+    raise e.error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 137, in run
+    await self._execute_node(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 285, in _execute_node
+    await self._run_node_loop(ctx, node_input)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_node_runner.py", line 299, in _run_node_loop
+    async for event in agen:
+      self._track_event_in_context(event, ctx)
+      await self._enqueue_event(event, ctx)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_base_node.py", line 175, in run
+    async for item in agen:
+    ...<12 lines>...
+        yield Event(output=validated)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 671, in _run_impl
+    async for event in agen:
+    ...<4 lines>...
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/workflow/_llm_agent_wrapper.py", line 484, in run_llm_agent_as_node
+    async for event in run_iter:
+    ...<33 lines>...
+        break
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 364, in run_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 102, in _with_caller_context
+    async for item in a:
+    ...<4 lines>...
+        context.detach(token)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/base_agent.py", line 351, in _run
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/agents/llm_agent.py", line 620, in _run_async_impl
+    async for event in agen:
+    ...<8 lines>...
+        should_pause = True
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 641, in run_async
+    async for event in agen:
+      last_event = event
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 719, in _run_one_step_async
+    async for llm_response in agen:
+    ...<23 lines>...
+          yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1109, in _call_llm_async
+    async for event in agen:
+      yield event
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1087, in _call_llm_with_tracing
+    async for llm_response in agen:
+    ...<18 lines>...
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 1170, in _run_and_handle_error
+    async for response in agen:
+      yield response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 431, in _run_and_handle_error
+    raise model_error
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/flows/llm_flows/base_llm_flow.py", line 408, in _run_and_handle_error
+    async for llm_response in agen:
+      tel_ctx.record_llm_response(invocation_context, llm_response)
+      yield llm_response
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 232, in generate_content_async
+    await self._preprocess_request(llm_request)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 647, in _preprocess_request
+    if self._api_backend == GoogleLLMVariant.GEMINI_API:
+       ^^^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 456, in _api_backend
+    if self.api_client.vertexai
+       ^^^^^^^^^^^^^^^
+  File "/config/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/functools.py", line 1025, in __get__
+    val = self.func(instance)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/adk/models/google_llm.py", line 450, in api_client
+    return Client(**kwargs)
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 422, in __init__
+    self._api_client = self._get_api_client(
+                       ~~~~~~~~~~~~~~~~~~~~^
+        vertexai=resolved_vertexai,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        http_options=http_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/client.py", line 477, in _get_api_client
+    return BaseApiClient(
+        vertexai=vertexai,
+    ...<4 lines>...
+        http_options=http_options,
+    )
+  File "/config/Desktop/Session1/floracare/.venv/lib/python3.13/site-packages/google/genai/_api_client.py", line 834, in __init__
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2026-09-25 05:33:12,617 - INFO - runners.py:2181 - Closing runner...
+2026-09-25 05:33:12,617 - INFO - runners.py:2194 - Runner closed.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90678]
